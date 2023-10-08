@@ -1,0 +1,19 @@
+.about {
+    grid-row: 2/6;
+    width: 100%;
+    grid-column: 2/12;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    background-color: blue;
+    width: 50%;
+
+}
+
+.left {
+    background-color: aqua;
+    width: 50%;
+}

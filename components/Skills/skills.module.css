@@ -1,0 +1,6 @@
+.skills{
+    grid-row: 6/18;
+    background-color: blueviolet;
+    width: 100%;
+    grid-column: 2/12;
+}

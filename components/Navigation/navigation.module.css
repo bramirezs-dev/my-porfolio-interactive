@@ -1,0 +1,25 @@
+
+  .header{
+    height: 50px;
+    border: 2px solid red;
+    grid-column: 2/12;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    padding: 0; 
+  }
+  
+  .navigation li {
+    display: inline; /* Coloca los elementos en línea horizontalmente */
+    margin-right: 20px; /* Agrega espacio entre los elementos */
+  }
+  
+  .navigation a {
+    text-decoration: none; /* Elimina la subrayado de los enlaces */
+    color: var(--color-text-dark); /* Color del texto de los enlaces */
+  }
+  
